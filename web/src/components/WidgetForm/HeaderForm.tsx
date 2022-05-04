@@ -27,7 +27,7 @@ export const HeaderForm = ({
         {!feedbackType && "Deixe seu feedback"}
 
         {feedbackType && (
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-1">
             <img
               className="w-6 h-6"
               src={feedbackTypes[feedbackType].image.source}
